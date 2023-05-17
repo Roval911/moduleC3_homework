@@ -1,0 +1,46 @@
+.request_block {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+#input {
+    margin: 0 auto 20px;
+    width: 250px;
+    height: 30px;
+    font-size: 30px;
+    text-align: center
+}
+
+#btn {
+    border: none;
+    width: 200px;
+    height: 30px;
+    transition: 0.5s
+}
+
+#btn:hover {
+    transform: scale(1.25);
+}
+
+.content {
+    margin: 5px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-width: 300px
+}
+
+.card_image {
+    display: block;
+    margin: 5px;
+    width: 200px;
+    height: 150px
+}
+
+.card {
+    width: 200px;
+    margin: 20px
+}
