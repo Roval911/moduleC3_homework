@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Размер экрана</h1>
+    <button class="btn">узнать размер экрана</button>
+    <script>
+        const btn = document.querySelector('.btn');
+        const screenWidth = window.screen.width;
+        const screenHeight = window.screen.height;
+        btn.addEventListener('click', () => {
+            alert('Ваш размер экрана ' + screenWidth + ' на ' + screenHeight)
+        })
+    </script>
+    </body>
+</html>

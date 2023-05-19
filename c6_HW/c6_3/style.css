@@ -1,0 +1,23 @@
+
+body {
+    text-align: center;
+}
+
+.btn {
+    padding: 0;
+    display: flex;
+    margin: 0 auto;
+    padding: 50px 150px;
+    font-size: 28px;    
+    color: beige;
+    background: hsl(258, 95%, 46%);
+  }
+  .btn_text {
+    margin-right: 20px;
+  }
+  
+  .btn_text {
+    margin-top: 4px;
+  }
+  
+ 
